@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4XJ - Portafolio</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <meta name="description" content="Portafolio de Maximiliano Joaquin Carrillo.">
+    <meta name="keywords" content="Portafolio, Maxj, MaxjDev, MaxjDevPortafolio, M4XJ, MaxJ">
+    <meta name="author" content="Maximiliano Joaquin Carrillo">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/750a5cf973.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZPH9NH46P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6ZPH9NH46P');
+    </script>
+</head>
+
+<body>
+    <a href="#home" id="scrollToHome">
+        <section class="scrollTo scrollTo--home">
+            <i class="fa-solid fa-house"></i>
+        </section>
+    </a>
+    <a href="#proyectos">
+        <section class="scrollTo scrollTo--proyecto">
+            <i class="fa-solid fa-briefcase"></i>
+        </section>
+    </a>
+    <a href="#contacto">
+        <section class="scrollTo scrollTo--contacto">
+            <i class="fa-solid fa-user"></i>
+        </section>
+    </a>
+    <header class="header" id="home">
+        <h1 class="header__h1">M4XJ</h1>
+        <nav>
+            <a class="nav__link" href="#proyectos">PROYECTOS</a>
+            <a class="nav__link" href="#contacto">CONTACTO</a>
+        </nav>
+        <div class="dividor">
+            <img src="images/divisor.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <article class="contenedorArticle" id="proyectos">
+                <h2 class="contenedorArticle__titulo">PROYECTOS</h2>
+                <div class="proyecto__container">
+                    <figure class="proyectoItem">
+                        <img class="proyecto--img" src="./images/birabar.jpg"
+                            alt="Captura de pantalla de ofertas de la pagina birabar."
+                            title="Captura de pantalla de birabar" loading="lazy">
+                    </figure>
+                    <section class="proyectoItem">
+                        <h3 class="proyecto__titulo">BIRABAR</h3>
+                        <ul class="proyecto__tecnologias">
+                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-angular"></i> Angular</li>
+                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-database"></i> MongoDB</li>
+                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-node-js"></i> NodeJS</li>
+                        </ul>
+                    </section>
+                    <section class="proyectoItem">
+                        <p>Aplicación web creada para un bar de la provincia de Jujuy con el fin de que estos puedan
+                            gestionar y ver los informes de su negocio.</p>
+                        <p>Este proyecto fue realizado en grupo, ayudé muchisimo para que la pagina sea responsive y
+                            además mi principal tarea fue manejar la logica de las ofertas, por lo cual tuve que estar
+                            metido tanto en el Back-end <strong>(Express, JWT, Cors)</strong> como Front-end
+                            <strong>(Bootstrap, Toastify, Typescript)</strong>.</p>
+                    </section>
+                    <section class="proyectoItem">
+                        <time datetime="2023" class="proyecto__time">2023</time>
+                        <nav class="proyecto__enlaces">
+                            <a href="http://100.24.204.191:4200/" target="_blank" rel="noopener noreferrer"
+                                class="proyecto__icons"><i class="fa-solid fa-link"></i></a>
+                        </nav>
+                    </section>
+                </div>
+                <div class="proyecto__container">
+                    <figure class="proyectoItem">
+                        <img class="proyecto--img" src="./images/pupilife.jpg" alt="Captura de pantalla de ejemplo."
+                            title="Captura de ejemplo" loading="lazy">
+                    </figure>
+                    <section class="proyectoItem">
+                        <h3 class="proyecto__titulo">PUPILIFE</h3>
+                        <ul class="proyecto__tecnologias">
+                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-leaf"></i> Spring Framework</li>
+                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-database"></i> MySQL</li>
+                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-java"></i> Java</li>
+                        </ul>
+                    </section>
+                    <section class="proyectoItem">
+                        <p>Pagína web realizada en conjunto con mi novia con el proposito de brindar consejos y cuidados
+                            para salud.</p>
+                        <p>El proyecto utiliza el patron <strong>MVC (Model View Controller)</strong> y relaciones
+                            <strong>JPA</strong> para la lógica del negocio. Se utilizo <strong>Thymeleaf</strong> para
+                            trabajar acople con el patron MVC y <strong>Bootstrap</strong> para la realizacion del
+                            Front-end.</p>
+                    </section>
+                    <section class="proyectoItem">
+                        <time datetime="2023" class="proyecto__time">2023</time>
+                        <!-- <nav class="proyecto__enlaces">
+                            <a href="" target="_blank" rel="noopener noreferrer" class="proyecto__icons"><i class="fa-solid fa-link"></i></a>
+                            <a href="" target="_blank" rel="noopener noreferrer" class="proyecto__icons"><i class="fa-brands fa-github"></i></a>
+                        </nav> -->
+                    </section>
+                </div>
+            </article>
+            <article class="contenedorArticle" id="contacto">
+                <h2 class="contenedorArticle__titulo">CONTACTO</h2>
+                <div class="containerContacto">
+                    <section class="contactoItem">
+                        <h4>¡Enviame un correo!</h4>
+                        <a class="contactoItem--link" href="mailto:maxi11carrillo@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </section>
+                    <section class="contactoItem">
+                        <h4>¡Encontrame en!</h4>
+                        <a class="contactoItem--link" href="https://www.instagram.com/carrillo_maxj/" target="_blank"
+                            rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    </section>
+                    <section class="contactoItem">
+                        <h4>¡Mira mi perfil!</h4>
+                        <a class="contactoItem--link" href="https://github.com/MaxiCarrillo" target="_blank"
+                            rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </section>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="dividor">
+            <img src="images/divisor.png" alt="">
+        </div>
+        <p>Diseñado por Maximiliano Joaquín Carrillo.</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
