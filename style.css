@@ -2,7 +2,9 @@
     --color-white: #fff;
     --color-black: #0d0d0d;
     --color-gray: #cacaca;
+    --color-gray-100:#666666;
     --color-gray-500: #4b4a4a;
+    --color-gray-800:#333333;
     --color-black-100: #1f1f1f;
 }
 
@@ -195,11 +197,11 @@ body {
     box-sizing: border-box;
     padding: 0.4rem 0.8rem;
     margin-top: 0.5rem;
-    background-color: #333333;
+    background-color: var(--color-gray-800);
     border-radius: 1rem;
     cursor: default;
     &:hover {
-        background-color: #666666;
+        background-color: var(--color-gray-100);
     }
 }
 
@@ -214,7 +216,7 @@ body {
 .proyecto__icons {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #585858;
+    color: var(--color-gray-100);
 
     &:hover {
         color: var(--color-white);
