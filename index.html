@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M4XJ - Portafolio</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-
     <meta name="description" content="Portafolio de Maximiliano Joaquin Carrillo.">
     <meta name="keywords" content="Portafolio, Maxj, MaxjDev, MaxjDevPortafolio, M4XJ, MaxJ">
     <meta name="author" content="Maximiliano Joaquin Carrillo">
     <meta name="robots" content="index, follow">
-
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+
     <script src="https://kit.fontawesome.com/750a5cf973.js" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZPH9NH46P"></script>
@@ -27,128 +26,95 @@
 </head>
 
 <body>
-    <a href="#home" id="scrollToHome">
-        <section class="scrollTo scrollTo--home">
-            <i class="fa-solid fa-house"></i>
-        </section>
+    <a href="#home" id="scrollToHome" aria-label="Icono para volver al inicio">
+        <i class="fa-solid fa-house"></i>
     </a>
-    <a href="#proyectos">
-        <section class="scrollTo scrollTo--proyecto">
-            <i class="fa-solid fa-briefcase"></i>
-        </section>
-    </a>
-    <a href="#contacto">
-        <section class="scrollTo scrollTo--contacto">
-            <i class="fa-solid fa-user"></i>
-        </section>
-    </a>
+    <nav class="navbar">
+        <a href="#experiencia" class="navbar__enlace">Experiencia</a>
+        <a href="#proyectos" class="navbar__enlace">Proyectos</a>
+        <a href="#contacto" class="navbar__enlace">Contacto</a>
+    </nav>
     <header class="header" id="home">
-        <h1 class="header__h1">M4XJ</h1>
-        <nav>
-            <a class="nav__link" href="#proyectos">PROYECTOS</a>
-            <a class="nav__link" href="#contacto">CONTACTO</a>
-        </nav>
-        <div class="dividor">
-            <img src="images/divisor.png" alt="">
-        </div>
+        <section class="header__container">
+            <h1 class="header__titulo">M4XJ</h1>
+            <p>Desarrollador web con un año de experiencia.</p>
+            <nav class="header__nav">
+                <a href="https://github.com/MaxiCarrillo" target="_blank" rel="noopener noreferrer"
+                    class="header__redes">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/maximiliano-joaqu%C3%ADn-carrillo-b742972a3/" target="_blank"
+                    rel="noopener noreferrer" class="header__redes">
+                    <i class="fa-brands fa-linkedin"></i> Linkedin
+                </a>
+                <a href="mailto:maxi11carrillo@gmail.com" class="header__redes"><i class="fa-solid fa-envelope">
+                    </i> maxi11carrillo@gmail.com
+                </a>
+            </nav>
+        </section>
     </header>
     <main>
-        <section class="container">
-            <article class="contenedorArticle" id="proyectos">
-                <h2 class="contenedorArticle__titulo">PROYECTOS</h2>
-                <div class="proyecto__container">
-                    <figure class="proyectoItem">
-                        <img class="proyecto--img" src="./images/birabar.jpg"
-                            alt="Captura de pantalla de ofertas de la pagina birabar."
-                            title="Captura de pantalla de birabar" loading="lazy">
-                    </figure>
-                    <section class="proyectoItem">
-                        <h3 class="proyecto__titulo">BIRABAR</h3>
-                        <ul class="proyecto__tecnologias">
-                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-angular"></i> Angular</li>
-                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-database"></i> MongoDB</li>
-                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-node-js"></i> NodeJS</li>
-                        </ul>
-                    </section>
-                    <section class="proyectoItem">
-                        <p>Aplicacion web desarrollada para el bar 'Birabar' que les permite gestionar y ver los
-                            informes de su negocio. <br>
-                            El proyecto fue realizado en grupo, y mi principal tarea fue desarrollar la logica de las
-                            ofertas.
-                        <ul>
-                            <li>Back-end: Express, JWT, Cors...</li>
-                            <li>Front-end: Bootstrap, Toastify...</li>
-                        </ul>
-                        La aplicación es responsive, lo que la hace compatible con cualquier dispositivo.
-                        </p>
-                    </section>
-                    <section class="proyectoItem">
-                        <time datetime="2023" class="proyecto__time">2023</time>
-                        <nav class="proyecto__enlaces">
-                            <a href="http://100.24.204.191:4200/" target="_blank" rel="noopener noreferrer"
-                                class="proyecto__icons"><i class="fa-solid fa-link"></i></a>
-                        </nav>
-                    </section>
-                </div>
-                <div class="proyecto__container">
-                    <figure class="proyectoItem">
-                        <img class="proyecto--img" src="./images/pupilife.jpg" alt="Captura de pantalla de pupilife."
-                            title="Captura de pantalla de pupilife" loading="lazy">
-                    </figure>
-                    <section class="proyectoItem">
-                        <h3 class="proyecto__titulo">PUPILIFE</h3>
-                        <ul class="proyecto__tecnologias">
-                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-leaf"></i> Spring Framework</li>
-                            <li class="proyecto__tecnologia--li"><i class="fa-solid fa-database"></i> MySQL</li>
-                            <li class="proyecto__tecnologia--li"><i class="fa-brands fa-java"></i> Java</li>
-                        </ul>
-                    </section>
-                    <section class="proyectoItem">
-                        <p>Pupilife es una página web que brinda consejos y cuidados para la salud. Desarrollé la lógica
-                            del negocio utilizando el patrón MVC y relaciones JPA.
-                            Para ello, utilicé las siguientes tecnologías:
-                        <ul>
-                            <li>Back-end: Java, Spring Boot, JPA</li>
-                            <li>Front-end: Thymeleaf, Bootstrap</li>
-                        </ul>
-                        </p>
-                    </section>
-                    <section class="proyectoItem">
-                        <time datetime="2023" class="proyecto__time">2023</time>
-                        <!-- <nav class="proyecto__enlaces">
-                            <a href="" target="_blank" rel="noopener noreferrer" class="proyecto__icons"><i class="fa-solid fa-link"></i></a>
-                            <a href="" target="_blank" rel="noopener noreferrer" class="proyecto__icons"><i class="fa-brands fa-github"></i></a>
-                        </nav> -->
-                    </section>
-                </div>
+        <section id="experiencia">
+            <h2><i class="fa-solid fa-suitcase"></i> Experiencia Laboral</h2>
+            <article>
+                <p class="experiencia__tiempo">Actualmente...</p>
+                <h3>Desarrollador Web - Ministerio de Salud de Jujuy</h3>
+                <p>Me encuentro creando una aplicacion web para el gobierno de Jujuy.<br>Las tecnologias principales que
+                    se estan utilizando para el desarrollo de la aplicación son Django y React.</p>
             </article>
-            <article class="contenedorArticle" id="contacto">
-                <h2 class="contenedorArticle__titulo">CONTACTO</h2>
-                <div class="containerContacto">
-                    <section class="contactoItem">
-                        <h4>¡Enviame un correo!</h4>
-                        <a class="contactoItem--link" href="mailto:maxi11carrillo@gmail.com"><i
-                                class="fa-solid fa-envelope"></i></a>
-                    </section>
-                    <section class="contactoItem">
-                        <h4>¡Encontrame en!</h4>
-                        <a class="contactoItem--link" href="https://www.instagram.com/carrillo_maxj/" target="_blank"
-                            rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    </section>
-                    <section class="contactoItem">
-                        <h4>¡Mira mi perfil!</h4>
-                        <a class="contactoItem--link" href="https://github.com/MaxiCarrillo" target="_blank"
-                            rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                    </section>
-                </div>
+        </section>
+        <section id="proyectos">
+            <h2><i class="fa-solid fa-code"></i> Proyectos</h2>
+            <article class="proyectoContainer">
+                <header class="proyectoHeader">
+                    <h3>BIRABAR</h3>
+                    <p>2023</p>
+                </header>
+                <p>Aplicación web que permite gestionar y manejar los informes de un negocio..</p>
+                <ul class="proyectoListaTecnologias">
+                    <li class="proyectoListaTecnologias__tecnologia"><i class="fa-brands fa-angular"></i> Angular</li>
+                    <li class="proyectoListaTecnologias__tecnologia"><i class="fa-brands fa-node-js"></i> NodeJS</li>
+                    <li class="proyectoListaTecnologias__tecnologia"><i class="fa-solid fa-database"></i> MongoDB</li>
+                </ul>
+                <figure class="proyectoImagen">
+                    <img src="./images/birabar.jpg" alt="Captura de pantalla de ofertas de la pagina birabar."
+                        loading="lazy" title="Birabar">
+                </figure>
             </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contactoContainer">
+                <article class="contacto__item">
+                    <a href="mailto:maxi11carrillo@gmail.com" class="contacto__enlace"
+                        aria-label="Email de Maximiliano Carrillo">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </article>
+                <article class="contacto__item">
+                    <a href="https://github.com/MaxiCarrillo" target="_blank" rel="noopener noreferrer"
+                        class="contacto__enlace" aria-label="GitHub de Maximiliano Carrillo">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </article>
+                <article class="contacto__item">
+                    <a href="https://www.linkedin.com/in/maximiliano-joaqu%C3%ADn-carrillo-b742972a3/" target="_blank"
+                        rel="noopener noreferrer" class="contacto__enlace"
+                        aria-label="Linkedin de Maximiliano Carrillo">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </article>
+                <article class="contacto__item">
+                    <a href="https://www.instagram.com/carrillo_maxj/" target="_blank" rel="noopener noreferrer"
+                        class="contacto__enlace" aria-label="Instagram de Maximiliano Carrillo">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="dividor">
-            <img src="images/divisor.png" alt="">
-        </div>
-        <p>Diseñado por Maximiliano Joaquín Carrillo.</p>
+        <p>2024 | Maximiliano Joaquín Carrillo.</p>
     </footer>
     <script src="javascript.js"></script>
 </body>

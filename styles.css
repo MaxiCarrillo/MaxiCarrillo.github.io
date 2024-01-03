@@ -1,0 +1,299 @@
+:root {
+    --color-primary: #151515;
+    --color-primary-100: #262626;
+    --color-primary-500: #1b1b1b;
+    --color-primary-800: #060606;
+
+    --color-secondary: #fff;
+    --color-secondary-100: #ffffffa6;
+    --color-off: #818181;
+    --color-muted: #8A8A8A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-off);
+    border-radius: 20px;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: Helvetica, Courier, monospace;
+}
+
+#scrollToHome {
+    display: block;
+    padding: 8px;
+
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-radius: 2rem;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    &:hover {
+        background-color: var(--color-muted);
+    }
+}
+
+.navbar {
+    z-index: 100;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 5px 5px;
+
+    position: fixed;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-around;
+
+    background-color: var(--color-primary-100);
+    border-radius: 2rem;
+
+    animation: enhance-navbar linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 300px;
+}
+
+@keyframes enhance-navbar {
+    to {
+        background-color: rgba(38, 38, 38, 0.4);
+        backdrop-filter: blur(5px);
+    }
+}
+
+.navbar__enlace {
+    padding: 4px 10px;
+
+    color: var(--color-secondary);
+    text-decoration: none;
+    border-radius: 2rem;
+
+    &:hover {
+        background-color: var(--color-off);
+    }
+}
+
+.header {
+    height: 100vh;
+
+    background-image: url('./images/divisor.png');
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 800px;
+
+    text-align: center;
+}
+
+.header__titulo {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.header__container p {
+    color: var(--color-off);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.header__redes {
+    padding: 4px 20px;
+
+    background-color: var(--color-primary-100);
+    color: var(--color-secondary);
+
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+
+    &:hover {
+        background-color: var(--color-off);
+    }
+}
+
+#experiencia>h2,
+#proyectos>h2,
+#contacto>h2 {
+    font-size: 1.8rem;
+}
+
+#experiencia,
+#proyectos,
+#contacto {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+#proyectos,
+#contacto {
+    margin-top: 100px;
+}
+
+.experiencia__tiempo {
+    color: var(--color-off);
+}
+
+.experiencia__tiempo~p {
+    color: var(--color-secondary-100);
+}
+
+.proyectoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyectoHeader>h3 {
+    margin-top: 0;
+    color: var(--color-secondary);
+    text-decoration: underline solid 3px var(--color-off);
+    transition: text-decoration 240ms ease-in-out;
+
+    &:hover {
+        text-decoration: underline solid 3px var(--color-secondary);
+    }
+}
+
+.proyectoContainer>p {
+    margin-top: 0;
+    color: var(--color-muted);
+}
+
+.proyectoListaTecnologias {
+    padding: 0;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.proyectoListaTecnologias__tecnologia {
+    padding: 4px 16px;
+    box-sizing: border-box;
+
+    border-radius: 2rem;
+    background-color: var(--color-primary-100);
+
+    display: inline-block;
+}
+
+.proyectoImagen {
+    overflow: hidden;
+    margin-inline: auto;
+    width: 100%;
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+}
+
+.proyectoImagen>img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+}
+
+.contactoContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.contacto__item {
+    padding-block: 2rem;
+    background-color: var(--color-primary-500);
+    border-radius: 12px;
+
+    display: grid;
+    place-content: center;
+
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
+}
+
+.contacto__enlace {
+    font-size: 10rem;
+    color: var(--color-muted);
+
+    transition: color 240ms ease-in-out;
+
+    &:hover {
+        color: var(--color-secondary);
+    }
+}
+
+.footer {
+    background-image: url('./images/divisor.png');
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 150px;
+    display: grid;
+}
+
+.footer p {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-inline: auto;
+    align-self: center;
+
+    background: var(--color-primary-800);
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 800px;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        translate: 0 100px;
+        scale: .4;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+@media (width<=640px) {
+    body>* {
+        padding: 10px;
+    }
+}
