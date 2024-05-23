@@ -1,0 +1,13 @@
+.project__section {
+    margin-top: 5rem;
+    padding-inline: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+
+    &>.project__titulo {
+        font-size: 2.2rem;
+        margin-bottom: 2.2rem;
+    }
+}

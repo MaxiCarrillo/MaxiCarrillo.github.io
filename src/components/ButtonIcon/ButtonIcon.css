@@ -1,0 +1,24 @@
+.button-icon {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--color-highlight);
+    border-radius: 30px;
+    color: var(--color-highlight);
+    cursor: pointer;
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 0.5rem;
+    outline: none;
+    padding: 0.5rem 1.3rem;
+    text-decoration: none;
+    width: max-content;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+        transform: translateX(8px);
+        filter: brightness(1.3);
+    }
+}

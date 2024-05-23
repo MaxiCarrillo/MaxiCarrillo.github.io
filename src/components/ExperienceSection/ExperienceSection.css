@@ -1,0 +1,11 @@
+.experience__section {
+    padding-inline: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    &>.experience__titulo {
+        font-size: 2.2rem;
+        margin-bottom: 2.2rem;
+    }
+}

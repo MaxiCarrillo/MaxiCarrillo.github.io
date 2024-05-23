@@ -1,0 +1,97 @@
+.home__section {
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    padding: 4rem 1rem;
+    gap: 1rem;
+
+    &>.home__article {
+        &>.home__icons {
+            display: flex;
+            gap: 0.5rem;
+
+            & a {
+                outline: none;
+                transition: filter 0.3s ease, transform 0.3s ease;
+
+                &:hover, &:focus{
+                    filter: brightness(0.5);
+                    transform: translateY(-0.2rem);
+                }
+            }
+        }
+
+        & .home__puesto {
+            color: var(--color-highlight);
+            font-size: 1.3rem;
+        }
+
+        & .home__titulo {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        & .home__description {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        &>.home__switch {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            &>.home__switch {
+                font-family: 'Roboto Mono', monospace;
+                border: none;
+                background: none;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: var(--color-main);
+                font-family: "Roboto Mono", monospace;
+                font-size: 1.1rem;
+                cursor: pointer;
+                text-decoration: none;
+                padding-left: 1rem;
+                filter: brightness(0.5);
+                outline: none;
+                transition: filter 0.3s ease;
+
+                &:hover, &:focus {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+    }
+
+    &>.home__figure {
+        text-align: center;
+
+        &>img {
+            aspect-ratio: 1/1;
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+            border-radius: 100%;
+            object-fit: cover;
+            box-shadow: var(--shadow-elevation-high);
+        }
+    }
+
+}
+
+@media (width > 768px) {
+    .home__section {
+        grid-template-columns: 1fr minmax(250px, 400px);
+        align-items: center;
+        padding: 1rem 2rem;
+
+        &>.home__figure {
+            &>img {
+                max-width: 350px;
+            }
+        }
+    }
+}
