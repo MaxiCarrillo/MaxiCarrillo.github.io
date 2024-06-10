@@ -82,10 +82,11 @@
 
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
     .home__section {
-        grid-template-columns: 1fr minmax(250px, 400px);
+        grid-template-columns: minmax(250px, 700px) minmax(250px, 400px);
         align-items: center;
+        justify-content: center;
         padding: 1rem 2rem;
 
         &>.home__figure {

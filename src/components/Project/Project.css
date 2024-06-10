@@ -85,7 +85,7 @@
     border-top: 1px solid #1E1E1E;
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
     .project__article {
         flex-direction: row;
         gap: 2rem;

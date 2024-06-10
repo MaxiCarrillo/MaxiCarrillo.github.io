@@ -47,7 +47,7 @@
     }
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
     .experience__article {
         &>.experience__time {
             flex-basis: 150px;

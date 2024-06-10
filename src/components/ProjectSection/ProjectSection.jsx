@@ -43,7 +43,7 @@ export const ProjectSection = () => {
 
     return (
         <section className='project__section'>
-            <h2 className="project__titulo">Proyectos</h2>
+            <h2 className="project__titulo">{t('Projects')}</h2>
             {
                 projects.map((project, index) => {
                     return (
