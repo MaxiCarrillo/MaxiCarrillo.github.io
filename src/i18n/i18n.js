@@ -21,6 +21,8 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                         "A simple web application that allows you to get the weather of any city.",
                     "Birabar Description":
                         "Management web application designed specifically for a restobar.",
+                    "MoffySports Description":
+                        "E-commerce specialized in sports shoes, which offers a wide range of models for all styles and needs.",
                 },
             },
             es: {
@@ -41,6 +43,8 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                         "Una aplicación web sencilla que permite obtener el clima de cualquier ciudad.",
                     "Birabar Description":
                         "Aplicación web de gestión diseñada específicamente para un restobar.",
+                    "MoffySports Description":
+                        "E-commerce especializado en zapatillas, que ofrece una amplia gama de modelos para todos los estilos y necesidades.",
                 },
             },
         },
