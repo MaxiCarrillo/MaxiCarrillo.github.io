@@ -9,7 +9,7 @@ export const ExperienceSection = () => {
     const experiences = [
         {
             time: '2024',
-            job: 'Freelance Developer',
+            job: 'Frontend Developer',
             company: 'Fujimi Technos',
             page: 'https://www.fujimitechnos.group/',
             description: t('Fujimi Technos Description')

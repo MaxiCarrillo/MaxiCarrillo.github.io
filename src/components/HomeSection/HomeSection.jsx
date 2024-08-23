@@ -9,7 +9,7 @@ import LinkedinIcon from '../../assets/svg/linkedin.svg';
 import MailIcon from '../../assets/svg/mail.svg';
 import FileIcon from '../../assets/svg/file.svg';
 import TranslateIcon from '../../assets/svg/translate.svg';
-import Avatar from '../../assets/img/avatar.jpg';
+import Avatar from '../../assets/img/avatar.webp';
 
 
 export const HomeSection = () => {
@@ -44,7 +44,7 @@ export const HomeSection = () => {
             <article className='home__article' data-animation='fade-left' ref={homeInfo}>
                 <div className='home__icons'>
                     <a href="mailto:maxi11carrillo@gmail.com"><img src={MailIcon} alt='Mail Icon' /></a>
-                    <a href="http://www.linkedin.com/in/maximiliano-joaqu%C3%ADn-carrillo-b742972a3/" target="_blank" rel="noopener noreferrer"><img src={LinkedinIcon} alt="Linkedin Icon" /></a>
+                    <a href="https://www.linkedin.com/in/maximiliano-joaquin-carrillo/" target="_blank" rel="noopener noreferrer"><img src={LinkedinIcon} alt="Linkedin Icon" /></a>
                 </div>
                 <p className='home__puesto'>{t('Web Developer')}</p>
                 <h1 className='home__titulo'>Maximiliano Carrillo</h1>
@@ -53,7 +53,7 @@ export const HomeSection = () => {
                     <ButtonIcon
                         src={FileIcon}
                         title='CV'
-                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1U7uQPxoFNMrDb_2FVk1at-pl_MG0dNuI/view?usp=sharing' : 'https://drive.google.com/file/d/1XHUFbaqF4gSTmJ8EzzdAxk66PF-QVXqW/view?usp=sharing'}
+                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1U7uQPxoFNMrDb_2FVk1at-pl_MG0dNuI/view?usp=sharing' : 'https://drive.google.com/file/d/1PSEnSR2BM_2QdgxhJ2QWCXkcEXUVfpAX/view?usp=sharing'}
                     />
                     <button className='home__switch' onClick={handleChangeLanguage}><img src={TranslateIcon} alt="translate icon" />{t('Switch')}</button>
                 </div>

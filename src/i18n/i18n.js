@@ -6,7 +6,7 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
         resources: {
             en: {
                 translation: {
-                    "Web Developer": "Web Developer",
+                    "Web Developer": "Programmer Analyst",
                     "Home Description": "Developing fantastic experiences",
                     Switch: "Cambiar a Español",
                     Experience: "Experience",
@@ -27,7 +27,7 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
             },
             es: {
                 translation: {
-                    "Web Developer": "Desarrollador Web",
+                    "Web Developer": "Analista Programador",
                     "Home Description":
                         "Desarrollando experiencias fantásticas",
                     Switch: "Switch to English",

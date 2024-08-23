@@ -14,9 +14,9 @@ import ExpressIcon from '../../assets/svg/expressjs_dark.svg';
 import MongoDbIcon from '../../assets/svg/mongodb.svg';
 import ChartjsIcon from '../../assets/svg/chartjs.svg';
 
-import BirabarImage from '../../assets/img/birabar.jpg';
-import MaxweatherImage from '../../assets/img/maxweather.jpg';
-import MoffySportsImage from '../../assets/img/moffysports.jpg';
+import BirabarImage from '../../assets/img/birabar.webp';
+import MaxweatherImage from '../../assets/img/maxweather.webp';
+import MoffySportsImage from '../../assets/img/moffysports.webp';
 
 export const ProjectSection = () => {
     const { t } = useTranslation();
