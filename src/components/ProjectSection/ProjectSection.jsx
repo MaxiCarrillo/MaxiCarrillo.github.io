@@ -4,6 +4,7 @@ import { Project } from '../Project/Project';
 import './ProjectSection.css'
 
 import CSSIcon from '../../assets/svg/css.svg';
+import React from '../../assets/svg/react.svg';
 import HTMLIcon from '../../assets/svg/html5.svg';
 import JavaScriptIcon from '../../assets/svg/javascript.svg';
 import AngularIcon from '../../assets/svg/angular.svg';
@@ -17,11 +18,24 @@ import ChartjsIcon from '../../assets/svg/chartjs.svg';
 import BirabarImage from '../../assets/img/birabar.webp';
 import MaxweatherImage from '../../assets/img/maxweather.webp';
 import MoffySportsImage from '../../assets/img/moffysports.webp';
+import RecruitingImage from '../../assets/img/recruiting.webp';
 
 export const ProjectSection = () => {
     const { t } = useTranslation();
 
     const projects = [
+        {
+            type: 'Fullstack',
+            name: 'Recruiting RH',
+            description: t('Recruiting RH Description'),
+            repositories: [{
+                name: 'Code',
+                url: 'https://github.com/nachopad/challenge_dh'
+            }],
+            page: 'https://github.com/nachopad/challenge_dh',
+            techs: [React, NodeJsIcon, SequelizeIcon, ExpressIcon],
+            image: RecruitingImage
+        },
         {
             type: 'Fullstack',
             name: 'Moffy Sports',

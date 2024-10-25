@@ -53,7 +53,7 @@ export const HomeSection = () => {
                     <ButtonIcon
                         src={FileIcon}
                         title='CV'
-                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1U7uQPxoFNMrDb_2FVk1at-pl_MG0dNuI/view?usp=sharing' : 'https://drive.google.com/file/d/1PSEnSR2BM_2QdgxhJ2QWCXkcEXUVfpAX/view?usp=sharing'}
+                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1kFzJhW1i1FJfTdWsRueIi7hnJOokq1rm/view?usp=sharing' : 'https://drive.google.com/file/d/1Diuni_sseEnVUkKy7KFeXNyxBzAnNh2l/view?usp=sharing'}
                     />
                     <button className='home__switch' onClick={handleChangeLanguage}><img src={TranslateIcon} alt="translate icon" />{t('Switch')}</button>
                 </div>

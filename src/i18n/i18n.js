@@ -23,6 +23,8 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                         "Management web application designed specifically for a restobar.",
                     "MoffySports Description":
                         "E-commerce specialized in sports shoes, which offers a wide range of models for all styles and needs.",
+                    "Recruiting RH Description":
+                        "The main objective is to develop a web application that allows users to view a catalogue of job applicants."
                 },
             },
             es: {
@@ -45,6 +47,8 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                         "Aplicación web de gestión diseñada específicamente para un restobar.",
                     "MoffySports Description":
                         "E-commerce especializado en zapatillas, que ofrece una amplia gama de modelos para todos los estilos y necesidades.",
+                    "Recruiting RH Description":
+                        "El objetivo principal es desarrollar una aplicación web que permita a los usuarios ver un catálogo de aspirantes para puestos de trabajo."
                 },
             },
         },
