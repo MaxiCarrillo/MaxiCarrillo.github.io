@@ -14,16 +14,34 @@ import SequelizeIcon from '../../assets/svg/sequelize.svg';
 import ExpressIcon from '../../assets/svg/expressjs_dark.svg';
 import MongoDbIcon from '../../assets/svg/mongodb.svg';
 import ChartjsIcon from '../../assets/svg/chartjs.svg';
+import MySQLIcon from '../../assets/svg/mysql.svg';
+import SpringIcon from '../../assets/svg/spring.svg'
+import AntDesignIcon from '../../assets/svg/ant-design.svg';
+import FigmaIcon from '../../assets/svg/figma.svg';
+import JavaIcon from '../../assets/svg/java.svg'
 
 import BirabarImage from '../../assets/img/birabar.webp';
 import MaxweatherImage from '../../assets/img/maxweather.webp';
 import MoffySportsImage from '../../assets/img/moffysports.webp';
 import RecruitingImage from '../../assets/img/recruiting.webp';
+import PlaxImage from '../../assets/img/plax.webp';
 
 export const ProjectSection = () => {
     const { t } = useTranslation();
 
     const projects = [
+        {
+            type: 'Fullstack',
+            name: 'Plax',
+            description: t('Plax Description'),
+            repositories: [{
+                name: 'Code',
+                url: 'https://github.com/MaxiCarrillo/plax-professional-developer'
+            }],
+            page: 'https://github.com/MaxiCarrillo/plax-professional-developer',
+            techs: [React, AntDesignIcon, CSSIcon, FigmaIcon, SpringIcon, JavaIcon, MySQLIcon],
+            image: PlaxImage
+        },
         {
             type: 'Fullstack',
             name: 'Recruiting RH',

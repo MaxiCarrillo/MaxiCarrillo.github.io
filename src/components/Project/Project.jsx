@@ -46,7 +46,7 @@ export const Project = ({ type, name, description, repositories, page, techs, im
                     {
                         techs.map((tech, index) => {
                             return (
-                                <li key={index} className='project__item-tech'><img src={tech} alt='Icono' width={25} height={25} /></li>
+                                <li key={index} className='project__item-tech'><img src={tech} alt={`Icono-${index}`} width={25} height={25} /></li>
                             )
                         }
                         )
@@ -55,7 +55,7 @@ export const Project = ({ type, name, description, repositories, page, techs, im
             </section>
             <figure className='project__figure'>
                 <a href={page} target="_blank" rel="noopener noreferrer">
-                    <img src={image} alt={name} />
+                    <img src={image} alt={name} title={name} />
                 </a>
             </figure>
         </article>

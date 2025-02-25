@@ -8,8 +8,11 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                 translation: {
                     "Web Developer": "Programmer Analyst",
                     "Home Description": "Developing fantastic experiences",
+                    Currently: "Currently",
                     Switch: "Cambiar a Español",
                     Experience: "Experience",
+                    "Jujuy Public Prosecutor's Office": "Jujuy Public Prosecutor's Office",
+                    "MPA Description": "I develop the user interface of the application using ReactTS, leveraging libraries like React Query and Zustand. I collaborate with designers and backend developers to create reusable components and define the architecture of various modules. I prioritize code quality by avoiding technical debt, optimizing performance, and continuously refactoring to improve the project's maintainability.",
                     "Ministry of Health of Jujuy":
                         "Ministry of Health of Jujuy",
                     "Ministry of Health of Jujuy Description":
@@ -24,7 +27,9 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "MoffySports Description":
                         "E-commerce specialized in sports shoes, which offers a wide range of models for all styles and needs.",
                     "Recruiting RH Description":
-                        "The main objective is to develop a web application that allows users to view a catalogue of job applicants."
+                        "The main objective is to develop a web application that allows users to view a catalogue of job applicants.",
+                    "Plax Description":
+                        "PLAX is an online platform that allows you to book your next accommodation quickly and easily. Find the perfect place for your vacation or business trip."
                 },
             },
             es: {
@@ -32,8 +37,11 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "Web Developer": "Analista Programador",
                     "Home Description":
                         "Desarrollando experiencias fantásticas",
+                    Currently: "Actualmente",
                     Switch: "Switch to English",
                     Experience: "Experiencia",
+                    "Jujuy Public Prosecutor's Office": "Ministerio Público de la Acusación de Jujuy",
+                    "MPA Description": "Desarrollo la interfaz de usuario de la aplicación con ReactTS, utilizando librerías como React Query y Zustand. Trabajo en equipo con diseñadores y backend para crear componentes reutilizables y definir la arquitectura de los módulos. Priorizo la calidad del código, evitando deudas técnicas, optimizando el rendimiento y refactorizando constantemente para mejorar la mantenibilidad del proyecto.",
                     "Ministry of Health of Jujuy":
                         "Ministerio de Salud de Jujuy",
                     "Ministry of Health of Jujuy Description":
@@ -48,7 +56,9 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "MoffySports Description":
                         "E-commerce especializado en zapatillas, que ofrece una amplia gama de modelos para todos los estilos y necesidades.",
                     "Recruiting RH Description":
-                        "El objetivo principal es desarrollar una aplicación web que permita a los usuarios ver un catálogo de aspirantes para puestos de trabajo."
+                        "El objetivo principal es desarrollar una aplicación web que permita a los usuarios ver un catálogo de aspirantes para puestos de trabajo.",
+                    "Plax Description":
+                        "PLAX es una plataforma en línea que te permite reservar tu próximo alojamiento de forma rápida y sencilla. Encuentra el lugar perfecto para tus vacaciones o viaje de negocios."
                 },
             },
         },

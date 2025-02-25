@@ -5,10 +5,17 @@ import './ExperienceSection.css'
 
 export const ExperienceSection = () => {
     const { t } = useTranslation();
-    
+
     const experiences = [
         {
-            time: '2024',
+            time: `2024 - ${t('Currently')}`,
+            job: 'Frontend Developer',
+            company: t('Jujuy Public Prosecutor\'s Office'),
+            page: 'https://mpajujuy.gob.ar/',
+            description: t('MPA Description')
+        },
+        {
+            time: '2024 - 2024',
             job: 'Frontend Developer',
             company: 'Fujimi Technos',
             page: 'https://www.fujimitechnos.group/',
