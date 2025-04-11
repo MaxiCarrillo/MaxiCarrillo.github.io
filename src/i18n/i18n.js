@@ -8,7 +8,7 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                 translation: {
                     "Web Developer": "Programmer Analyst",
                     "Home Description": "Developing fantastic experiences",
-                    Currently: "Currently",
+                    Currently: "Present",
                     Switch: "Cambiar a Español",
                     Experience: "Experience",
                     "Jujuy Public Prosecutor's Office": "Jujuy Public Prosecutor's Office",
@@ -37,7 +37,7 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "Web Developer": "Analista Programador",
                     "Home Description":
                         "Desarrollando experiencias fantásticas",
-                    Currently: "Actualmente",
+                    Currently: "Presente",
                     Switch: "Switch to English",
                     Experience: "Experiencia",
                     "Jujuy Public Prosecutor's Office": "Ministerio Público de la Acusación de Jujuy",
@@ -62,7 +62,7 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                 },
             },
         },
-        lng: "es", // language to use, more languages can be added later
+        lng: localStorage.getItem('language') || 'es', // language to use, more languages can be added later
         fallbackLng: "es", // use en if detected lng is not available
         interpolation: {
             escapeValue: false, // react already safes from xss

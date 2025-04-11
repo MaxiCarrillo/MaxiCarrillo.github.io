@@ -36,7 +36,13 @@ export const HomeSection = () => {
     }, []);
 
     const handleChangeLanguage = () => {
-        i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
+        if (i18n.language === 'en') {
+            i18n.changeLanguage('es');
+            localStorage.setItem('language', 'es');
+        } else {
+            i18n.changeLanguage('en');
+            localStorage.setItem('language', 'en');
+        }
     }
 
     return (
@@ -53,7 +59,7 @@ export const HomeSection = () => {
                     <ButtonIcon
                         src={FileIcon}
                         title='CV'
-                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1kFzJhW1i1FJfTdWsRueIi7hnJOokq1rm/view?usp=sharing' : 'https://drive.google.com/file/d/1Diuni_sseEnVUkKy7KFeXNyxBzAnNh2l/view?usp=sharing'}
+                        href={i18n.language === 'en' ? 'https://drive.google.com/file/d/1oipx3SdYsdFBZpj6wDTYdvKzuJlzOr3l/view?usp=sharing' : 'https://drive.google.com/file/d/1bgLbq2b713fSkMxX5rDBIOEY-rsX00he/view?usp=sharing'}
                     />
                     <button className='home__switch' onClick={handleChangeLanguage}><img src={TranslateIcon} alt="translate icon" />{t('Switch')}</button>
                 </div>
