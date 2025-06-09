@@ -34,7 +34,7 @@ export const projects = [
             name: 'Code',
             url: 'https://github.com/Sofi231098/prevents'
         }],
-        page: 'https://github.com/Sofi231098/prevents',
+        page: 'https://sofi231098.github.io/prevents/',
         techs: [
             {
                 name: 'React',
