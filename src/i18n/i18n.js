@@ -29,7 +29,10 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "Recruiting RH Description":
                         "The main objective is to develop a web application that allows users to view a catalogue of job applicants.",
                     "Plax Description":
-                        "PLAX is an online platform that allows you to book your next accommodation quickly and easily. Find the perfect place for your vacation or business trip."
+                        "Plax is an online platform that allows you to book your next accommodation quickly and easily. Find the perfect place for your vacation or business trip.",
+                    "Prevents Description":
+                        "Prevents is a frontend application that allows you to search for events, add them to favorites, and view their details. It offers a modern, intuitive, and visually appealing experience."
+
                 },
             },
             es: {
@@ -58,7 +61,9 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
                     "Recruiting RH Description":
                         "El objetivo principal es desarrollar una aplicación web que permita a los usuarios ver un catálogo de aspirantes para puestos de trabajo.",
                     "Plax Description":
-                        "PLAX es una plataforma en línea que te permite reservar tu próximo alojamiento de forma rápida y sencilla. Encuentra el lugar perfecto para tus vacaciones o viaje de negocios."
+                        "Plax es una plataforma en línea que te permite reservar tu próximo alojamiento de forma rápida y sencilla. Encuentra el lugar perfecto para tus vacaciones o viaje de negocios.",
+                    "Prevents Description":
+                        "Prevents es una aplicación frontend que permite buscar eventos, agregarlos a favoritos y ver sus detalles. Ofrece una experiencia moderna, intuitiva y visualmente atractiva."
                 },
             },
         },
