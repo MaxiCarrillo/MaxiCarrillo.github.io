@@ -9,6 +9,7 @@ import JavaScriptIcon from '../../assets/svg/javascript.svg';
 import JWTIcon from '../../assets/svg/jwt.svg';
 import MongoDbIcon from '../../assets/svg/mongodb.svg';
 import MySQLIcon from '../../assets/svg/mysql.svg';
+import NextJSIcon from '../../assets/svg/nextjs.svg';
 import NodeJsIcon from '../../assets/svg/nodejs.svg';
 import React from '../../assets/svg/react.svg';
 import ReactQueryIcon from '../../assets/svg/reactquery.svg';
@@ -18,12 +19,15 @@ import SpringIcon from '../../assets/svg/spring.svg';
 import TanstackIcon from '../../assets/svg/tanstack.svg';
 import TypescriptIcon from '../../assets/svg/typescript.svg';
 import ZodIcon from '../../assets/svg/zod.svg';
+import TailwindIcon from '../../assets/svg/tailwindcss.svg';
+import StoryBookIcon from '../../assets/svg/storybook.svg';
+import RedisIcon from '../../assets/svg/redis.svg';
 
 import BirabarImage from '../../assets/img/birabar.webp';
 import MoffySportsImage from '../../assets/img/moffysports.webp';
 import PlaxImage from '../../assets/img/plax.webp';
 import PreventsImage from '../../assets/img/prevents.webp';
-import RecruitingImage from '../../assets/img/recruiting.webp';
+import SocialDeathStarImage from '../../assets/img/socialdeathstar.webp';
 
 export const projects = [
     {
@@ -117,40 +121,40 @@ export const projects = [
     },
     {
         type: 'Fullstack',
-        name: 'Recruiting RH',
-        description: 'Recruiting RH Description',
+        name: 'Social Death Star',
+        description: 'Social Death Star Description',
         repositories: [{
             name: 'Code',
-            url: 'https://github.com/nachopad/challenge_dh'
+            url: 'https://github.com/MaxiCarrillo/social-death-star'
         }],
-        page: 'https://github.com/nachopad/challenge_dh',
+        page: 'https://github.com/MaxiCarrillo/social-death-star',
         techs: [
+            {
+                name: 'NextJS',
+                icon: NextJSIcon
+            },
             {
                 name: 'React',
                 icon: React
             },
             {
-                name: 'CSS',
-                icon: CSSIcon
+                name: 'Tailwind',
+                icon: TailwindIcon
             },
             {
-                name: 'Node.js',
-                icon: NodeJsIcon
+                name: 'Typescript',
+                icon: TypescriptIcon
             },
             {
-                name: 'Sequelize',
-                icon: SequelizeIcon
+                name: 'Redis',
+                icon: RedisIcon
             },
             {
-                name: 'Express.js',
-                icon: ExpressIcon
-            },
-            {
-                name: 'MySQL',
-                icon: MySQLIcon
+                name: 'Storybook',
+                icon: StoryBookIcon
             }
         ],
-        image: RecruitingImage
+        image: SocialDeathStarImage
     },
     {
         type: 'Fullstack',
