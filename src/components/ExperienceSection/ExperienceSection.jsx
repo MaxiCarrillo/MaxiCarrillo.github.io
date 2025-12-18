@@ -18,7 +18,7 @@ export const ExperienceSection = () => {
             time: '2024 - 2024',
             job: 'Frontend Developer',
             company: 'Fujimi Technos',
-            page: 'https://www.fujimitechnos.group/',
+            page: 'https://www.fujimitechnos.jp/',
             description: t('Fujimi Technos Description')
         },
         {
