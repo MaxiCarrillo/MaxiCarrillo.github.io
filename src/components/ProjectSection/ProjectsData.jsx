@@ -34,207 +34,219 @@ export const projects = [
         type: 'Frontend',
         name: 'Prevents',
         description: 'Prevents Description',
-        repositories: [{
-            name: 'Code',
-            url: 'https://github.com/Sofi231098/prevents'
-        }],
+        repositories: [
+            {
+                name: 'Code',
+                url: 'https://github.com/Sofi231098/prevents',
+            },
+        ],
         page: 'https://sofi231098.github.io/prevents/',
         techs: [
             {
                 name: 'React',
-                icon: React
+                icon: React,
             },
             {
                 name: 'Typescript',
-                icon: TypescriptIcon
+                icon: TypescriptIcon,
             },
             {
                 name: 'React Query',
-                icon: ReactQueryIcon
+                icon: ReactQueryIcon,
             },
             {
                 name: 'Tanstack',
-                icon: TanstackIcon
+                icon: TanstackIcon,
             },
             {
                 name: 'React Router',
-                icon: ReactRouterIcon
+                icon: ReactRouterIcon,
             },
             {
                 name: 'Zod',
-                icon: ZodIcon
+                icon: ZodIcon,
             },
             {
                 name: 'CSS',
-                icon: CSSIcon
+                icon: CSSIcon,
             },
             {
                 name: 'Figma',
-                icon: FigmaIcon
-            }],
-        image: PreventsImage
+                icon: FigmaIcon,
+            },
+        ],
+        image: PreventsImage,
     },
     {
         type: 'Fullstack',
         name: 'Plax',
         description: 'Plax Description',
-        repositories: [{
-            name: 'Code',
-            url: 'https://github.com/MaxiCarrillo/plax-professional-developer'
-        }],
+        repositories: [
+            {
+                name: 'Code',
+                url: 'https://github.com/MaxiCarrillo/plax-professional-developer',
+            },
+        ],
         page: 'https://github.com/MaxiCarrillo/plax-professional-developer',
         techs: [
             {
                 name: 'React',
-                icon: React
+                icon: React,
             },
             {
                 name: 'Ant Design',
-                icon: AntDesignIcon
+                icon: AntDesignIcon,
             },
             {
                 name: 'CSS',
-                icon: CSSIcon
+                icon: CSSIcon,
             },
             {
                 name: 'Figma',
-                icon: FigmaIcon
+                icon: FigmaIcon,
             },
             {
                 name: 'Spring',
-                icon: SpringIcon
+                icon: SpringIcon,
             },
             {
                 name: 'Java',
-                icon: JavaIcon
+                icon: JavaIcon,
             },
             {
                 name: 'MySQL',
-                icon: MySQLIcon
+                icon: MySQLIcon,
             },
             {
                 name: 'JWT',
-                icon: JWTIcon
-            }
+                icon: JWTIcon,
+            },
         ],
-        image: PlaxImage
+        image: PlaxImage,
     },
     {
         type: 'Fullstack',
         name: 'Social Death Star',
         description: 'Social Death Star Description',
-        repositories: [{
-            name: 'Code',
-            url: 'https://github.com/MaxiCarrillo/social-death-star'
-        }],
+        repositories: [
+            {
+                name: 'Code',
+                url: 'https://github.com/MaxiCarrillo/social-death-star',
+            },
+        ],
         page: 'https://github.com/MaxiCarrillo/social-death-star',
         techs: [
             {
                 name: 'NextJS',
-                icon: NextJSIcon
+                icon: NextJSIcon,
             },
             {
                 name: 'React',
-                icon: React
+                icon: React,
             },
             {
                 name: 'Tailwind',
-                icon: TailwindIcon
+                icon: TailwindIcon,
             },
             {
                 name: 'Typescript',
-                icon: TypescriptIcon
+                icon: TypescriptIcon,
             },
             {
                 name: 'Redis',
-                icon: RedisIcon
+                icon: RedisIcon,
             },
             {
                 name: 'Storybook',
-                icon: StoryBookIcon
-            }
+                icon: StoryBookIcon,
+            },
         ],
-        image: SocialDeathStarImage
+        image: SocialDeathStarImage,
     },
     {
         type: 'Fullstack',
         name: 'Moffy Sports',
         description: 'MoffySports Description',
-        repositories: [{
-            name: 'Code',
-            url: 'https://github.com/Sofi231098/grupo_13_moffy/'
-        }],
+        repositories: [
+            {
+                name: 'Code',
+                url: 'https://github.com/Sofi231098/grupo_13_moffy/',
+            },
+        ],
         page: 'https://github.com/Sofi231098/grupo_13_moffy/',
         techs: [
             {
                 name: 'React',
-                icon: React
+                icon: React,
             },
             {
                 name: 'CSS',
-                icon: CSSIcon
+                icon: CSSIcon,
             },
             {
                 name: 'Node.js',
-                icon: NodeJsIcon
+                icon: NodeJsIcon,
             },
             {
                 name: 'JavaScript',
-                icon: JavaScriptIcon
+                icon: JavaScriptIcon,
             },
             {
                 name: 'Sequelize',
-                icon: SequelizeIcon
+                icon: SequelizeIcon,
             },
             {
                 name: 'Express.js',
-                icon: ExpressIcon
+                icon: ExpressIcon,
             },
             {
                 name: 'MySQL',
-                icon: MySQLIcon
-            }
+                icon: MySQLIcon,
+            },
         ],
-        image: MoffySportsImage
+        image: MoffySportsImage,
     },
     {
         type: 'Fullstack',
         name: 'Birabar',
         description: 'Birabar Description',
-        repositories: [{
-            name: 'Code',
-            url: 'https://github.com/nachopad/angular-birabar-restobar'
-        }],
+        repositories: [
+            {
+                name: 'Code',
+                url: 'https://github.com/nachopad/angular-birabar-restobar',
+            },
+        ],
         page: 'https://birabar-frontend.onrender.com/principal',
         techs: [
             {
                 name: 'Angular',
-                icon: AngularIcon
+                icon: AngularIcon,
             },
             {
                 name: 'CSS',
-                icon: CSSIcon
+                icon: CSSIcon,
             },
             {
                 name: 'Bootstrap',
-                icon: BootstrapIcon
+                icon: BootstrapIcon,
             },
             {
                 name: 'JavaScript',
-                icon: JavaScriptIcon
+                icon: JavaScriptIcon,
             },
             {
                 name: 'Node.js',
-                icon: NodeJsIcon
+                icon: NodeJsIcon,
             },
             {
                 name: 'Express.js',
-                icon: ExpressIcon
+                icon: ExpressIcon,
             },
             {
                 name: 'MongoDB',
-                icon: MongoDbIcon
-            }
+                icon: MongoDbIcon,
+            },
         ],
-        image: BirabarImage
-    }];
+        image: BirabarImage,
+    },
+];

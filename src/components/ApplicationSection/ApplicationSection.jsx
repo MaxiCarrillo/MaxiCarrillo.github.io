@@ -1,14 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { Project } from '../Project/Project';
-import './ProjectSection.css';
-import { projects } from './ProjectsData';
+import { projects } from './ApplicationData';
 
-export const ProjectSection = () => {
+export const ApplicationSection = () => {
     const { t } = useTranslation();
 
     return (
         <section className="project__section">
-            <h2 className="project__titulo">{t('Projects')}</h2>
+            <h2 className="project__titulo">{t('Applications')}</h2>
             {projects.map((project, index) => {
                 return (
                     <Project
